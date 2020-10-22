@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { MyResumeComponent } from './my-resume/my-resume.component';
+import { CartService } from './cart.service';
 @NgModule({
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import { MyResumeComponent } from './my-resume/my-resume.component';
     ProductDetailsComponent,
     MyResumeComponent,
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ],
+  providers: [CartService]
 })
 export class AppModule { }
 
