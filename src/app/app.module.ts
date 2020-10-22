@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ResumeWorkExperienceComponent } from './my-resume/resume-work-experience/resume-work-experience.component';
 import { ResumeProfileComponent } from './my-resume/resume-profile/resume-profile.component';
+import { ResumeFooterComponent } from './my-resume/resume-footer/resume-footer.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { ResumeProfileComponent } from './my-resume/resume-profile/resume-profil
     ShippingComponent,
     ResumeWorkExperienceComponent,
     ResumeProfileComponent,
+    ResumeFooterComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
