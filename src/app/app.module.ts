@@ -13,6 +13,7 @@ import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
+import { ResumeWorkExperienceComponent } from './my-resume/resume-work-experience/resume-work-experience.component';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     MyResumeComponent,
     CartComponent,
     ShippingComponent,
+    ResumeWorkExperienceComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
