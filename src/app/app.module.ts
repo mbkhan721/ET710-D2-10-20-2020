@@ -10,6 +10,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { MyResumeComponent } from './my-resume/my-resume.component';
 import { CartService } from './cart.service';
+import { CartComponent } from './cart/cart.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -18,6 +19,7 @@ import { CartService } from './cart.service';
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'myresume', component: MyResumeComponent },
+      { path: 'cart', component: CartComponent },
     ])
   ],
   declarations: [
@@ -27,6 +29,7 @@ import { CartService } from './cart.service';
     ProductAlertsComponent,
     ProductDetailsComponent,
     MyResumeComponent,
+    CartComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
