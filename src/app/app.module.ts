@@ -12,6 +12,7 @@ import { MyResumeComponent } from './my-resume/my-resume.component';
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'myresume', component: MyResumeComponent },
       { path: 'cart', component: CartComponent },
+      { path: 'shipping', component: ShippingComponent },
     ])
   ],
   declarations: [
@@ -33,6 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
     ProductDetailsComponent,
     MyResumeComponent,
     CartComponent,
+    ShippingComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
