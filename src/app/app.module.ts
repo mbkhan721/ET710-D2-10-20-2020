@@ -16,6 +16,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { ResumeWorkExperienceComponent } from './my-resume/resume-work-experience/resume-work-experience.component';
 import { ResumeProfileComponent } from './my-resume/resume-profile/resume-profile.component';
 import { ResumeFooterComponent } from './my-resume/resume-footer/resume-footer.component';
+import { ResumeEducationComponent } from './my-resume/resume-education/resume-education.component';
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { ResumeFooterComponent } from './my-resume/resume-footer/resume-footer.c
     ResumeWorkExperienceComponent,
     ResumeProfileComponent,
     ResumeFooterComponent,
+    ResumeEducationComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
