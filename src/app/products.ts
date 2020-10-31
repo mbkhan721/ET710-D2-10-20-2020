@@ -26,10 +26,10 @@ export const r1 = {
   "profession": "Designer",
   "address": {
     "streetAddress": "21 2nd Street",
-    "city": "London",
+    "city": "New York,",
     "state": "NY",
     "postalCode": "10021-3100",
-    "country": "UK",
+    "country": "USA",
     "email": "ex@mail.com"
   },
   "phoneNumbers": [
