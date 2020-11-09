@@ -53,7 +53,7 @@ export const r1 = {
 		"level": "50%"
 	},
 		{
-		"language": "German",
+		"language": "Italian",
 		"level": "25%"
 	}
 	
